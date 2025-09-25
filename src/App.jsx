@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
  import 'react-toastify/dist/ReactToastify.css';
 import { AdminContext } from './context/AdminContext';
 import Navbar from './components/Navbar';
-import SideBar from './components/sideBar';
+import SideBar from './components/SideBar';
 import { Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Admin/Dashboard';
 import AllApointments from './pages/Admin/AllApointments';
@@ -63,4 +63,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App;
